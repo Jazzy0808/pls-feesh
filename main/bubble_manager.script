@@ -18,4 +18,5 @@ function spawn_bubble()
 	-- Spawn a new bubble at a random x position at the bottom of the screen
 	local spawn_pos = vmath.vector3(math.random(-320, 320), -240, 0)  -- Assuming screen size of 640x480
 	local bubble_id = factory.create(bubble_template, spawn_pos, vmath.quat(), {})
+	print("YAY")
 end
