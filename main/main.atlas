@@ -1,1 +1,10 @@
+images {
+  image: "/assets/images/poppedBubble.png"
+}
+images {
+  image: "/assets/images/popScreen.png"
+}
+images {
+  image: "/assets/images/bubble.png"
+}
 extrude_borders: 2
