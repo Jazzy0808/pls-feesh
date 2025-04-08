@@ -39,7 +39,7 @@ function on_input(self, action_id, action)
 			self.popped = true
 
 			-- Change to "popped" image (assuming you've already set up a popped texture in your sprite)
-			msg.post(go.get_id(), "play_animation", {id = hash("popped")})
+			msg.post(go.get_id(), "play_animation", "popped")
 
 			-- Start the timer for popping
 			self.timer = popped_time

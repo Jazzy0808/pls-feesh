@@ -2,9 +2,9 @@ images {
   image: "/assets/images/poppedBubble.png"
 }
 images {
-  image: "/assets/images/popScreen.png"
+  image: "/assets/images/bubble.png"
 }
 images {
-  image: "/assets/images/bubble.png"
+  image: "/assets/images/popscreen.png"
 }
 extrude_borders: 2
