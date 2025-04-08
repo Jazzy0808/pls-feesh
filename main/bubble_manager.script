@@ -13,7 +13,7 @@ function update(self, dt)
 end
 
 function spawn_bubble()
-	local x = math.random(-200, 200)
+	local x = math.random(-200, 1280)
 	local y = -300
 	local pos = vmath.vector3(x, y, 0)
 	factory.create("#bubble_factory", pos, nil, {}, 1)
