@@ -7,4 +7,13 @@ images {
 images {
   image: "/assets/images/popScreen.png"
 }
+images {
+  image: "/assets/images/feedScreenFinal.png"
+}
+images {
+  image: "/assets/images/popscreenFinal.png"
+}
+images {
+  image: "/assets/images/startScreenFull.png"
+}
 extrude_borders: 2
