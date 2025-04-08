@@ -5,6 +5,6 @@ images {
   image: "/assets/images/bubble.png"
 }
 images {
-  image: "/assets/images/popscreen.png"
+  image: "/assets/images/popScreen.png"
 }
 extrude_borders: 2
