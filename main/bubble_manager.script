@@ -1,6 +1,4 @@
--- bubble_manager.lua
-local spawn_interval = 1  -- Time between each bubble spawn (in seconds)
-local bubble_template = "#bubble"  -- Reference to the bubble prefab
+local spawn_interval = 1
 
 function init(self)
 	self.timer = spawn_interval
@@ -15,8 +13,8 @@ function update(self, dt)
 end
 
 function spawn_bubble()
-	-- Spawn a new bubble at a random x position at the bottom of the screen
-	local spawn_pos = vmath.vector3(math.random(-320, 320), -240, 0)  -- Assuming screen size of 640x480
-	local bubble_id = factory.create(bubble_template, spawn_pos, vmath.quat(), {})
-	print("YAY")
+	local x = math.random(-200, 200)
+	local y = -300
+	local pos = vmath.vector3(x, y, 0)
+	factory.create("#bubble_factory", pos, nil, {}, 1)
 end

@@ -1,0 +1,7 @@
+images {
+  image: "/assets/images/bubble.png"
+}
+images {
+  image: "/assets/images/poppedBubble.png"
+}
+extrude_borders: 2
